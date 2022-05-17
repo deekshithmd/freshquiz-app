@@ -1,0 +1,25 @@
+.rules-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ol>li::marker{
+    font-weight: bold;
+}
+
+.rules{
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list-item{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border: 1px solid var( --border-black);
+    border-radius: 5px;
+}
